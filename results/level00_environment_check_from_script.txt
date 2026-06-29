@@ -1,0 +1,25 @@
+============================================================
+NeuroBCI Environment Check
+============================================================
+Time: 2026-06-29 14:06:17.549759
+Python executable: /opt/anaconda3/envs/neurobci/bin/python
+Python version: 3.11.15 (main, Jun 11 2026, 15:14:57) [Clang 20.1.8 ]
+System: Darwin
+Machine: arm64
+Processor: arm
+
+Package status:
+numpy       : OK
+scipy       : OK
+pandas      : OK
+matplotlib  : OK
+sklearn     : OK
+mne         : OK
+braindecode : OK
+moabb       : OK
+pyriemann   : OK
+nibabel     : OK
+nilearn     : OK
+networkx    : OK
+jupyterlab  : OK
+notebook    : OK

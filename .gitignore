@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv
+data/raw/
+data/private/
+*.fif
+*.edf
+*.bdf
+*.set
+*.mat
+*.npy
+*.npz
