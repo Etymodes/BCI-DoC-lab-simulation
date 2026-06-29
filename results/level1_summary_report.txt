@@ -1,0 +1,21 @@
+
+Level 1 Summary Report
+
+Dataset:
+- Number of patients: 60
+- Diagnoses: {'UWS': 26, 'MCS': 24, 'EMCS': 10}
+
+Files generated:
+- data/level1_simulated_doc_eeg_table.csv
+- figures/level1_crsr_by_diagnosis.png
+- figures/level1_eeg_bandpower_by_diagnosis.png
+
+Binary classifier:
+- Task: UWS vs MCS
+- Features: ['age', 'days_since_injury', 'crs_r_total', 'delta_power', 'theta_power', 'alpha_power', 'beta_power', 'gamma_power', 'attention_index']
+- Accuracy: 1.000
+
+Interpretation:
+This is a simulated dataset. The result is not clinically meaningful yet.
+The purpose is to practice the basic Python workflow for DoC-BCI research:
+clinical table -> EEG-style features -> visualization -> classification.
